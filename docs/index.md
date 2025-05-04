@@ -1,17 +1,24 @@
-# Welcome to MkDocs
+# About
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This website is intended to help current (and future students)
+of BCIT's COMP 3725 Intro To Data Communications for CST course.
+This is where I will be compiling my notes every week.
+There will be parallels with the lectures (duh), 
+but it's not a one-to-one copy and should not be considered as a replacement/alternative to other course, more like a supplement.
 
-## Commands
+## To future students and other sets
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Since this is just a single summer session, course material may change, and I don't think I will be able to change it myself, so feel free to fork it or ask to be a contributor! You can contact me via GitHub or LinkedIn.
 
-## Project layout
+# Course Logistics
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+| name         | percent |
+|--------------|---------|
+| final        | 35      |
+| labs/quizzes | 35      |
+| assignments  | 30      |
+| total        | 100     |
+
+!!! warning "Passing Grade"
+
+    The passing grade for this course is 60%.
