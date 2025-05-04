@@ -6,6 +6,8 @@ repo_name: jprili/comp2735-notes
 
 theme:
   name: material
+  font: 
+    code: "JetBrains Mono"
   features:
     - toc.integrate
     - navigation.top
@@ -32,9 +34,10 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - tables
 
 nav:
-  - intro
+  - index.md
 
 extra:
   social:
