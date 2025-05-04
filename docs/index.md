@@ -10,3 +10,14 @@ but it's not a one-to-one copy and should not be considered as a replacement/alt
 
 Since this is just a single summer session, course material may change, and I don't think I will be able to change it myself, so feel free to fork it or ask to be a contributor! You can contact me via GitHub or LinkedIn.
 
+## Admonitions
+
+!!! note Note
+
+    This is for auxiliary information, outside reference,
+    or a **related** sidenote.
+
+!!! warning Warning
+    
+    This admonition is for things that we should look out for,
+    pitfalls or misconceptions.
