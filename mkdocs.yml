@@ -1,4 +1,45 @@
-site_name: COMP 3725 202510 Notes
+site_name: COMP 3725 202510 notes
 site_url: https://jprili.github.io/comp3725-notes
+
+repo_url: https://github.com/jprili/comp3725-notes
+repo_name: jprili/comp2735-notes
+
 theme:
   name: material
+  features:
+    - toc.integrate
+    - navigation.top
+    - navigation.footer
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      toggle:
+        icon: material/toggle-switch
+        name: toggle to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: toggle to light mode
+
+plugins:
+  - search
+  - admonition
+
+nav:
+  - intro
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jprili/
+      name: James' personal github
+
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/jprili
+      name: James' LinkedIn 
+
+copyright: Copyright &copy; <script>document.write(new Date().getFullYear())</script> James Paolo Rili
