@@ -27,6 +27,8 @@ theme:
 
 plugins:
   - search
+
+markdown_extensions:
   - admonition
 
 nav:
