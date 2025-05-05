@@ -2,7 +2,7 @@ site_name: COMP 3725 202510 notes
 site_url: https://jprili.github.io/comp3725-notes
 
 repo_url: https://github.com/jprili/comp3725-notes
-repo_name: jprili/comp2735-notes
+repo_name: jprili/comp3725-notes
 
 theme:
   name: material
@@ -12,6 +12,8 @@ theme:
     - toc.integrate
     - navigation.top
     - navigation.footer
+    - content.code.select
+    - content.code.annotate
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -33,6 +35,12 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
