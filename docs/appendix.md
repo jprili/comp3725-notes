@@ -2,15 +2,31 @@
 
 Other background information and outside references can be found here.
 
-## Hamming Error Correction
-See this 3Blue1Brown's video on [Hamming Codes](https://www.youtube.com/watch?v=X8jsijhllIA) to understand the motivation behind error codes. 
+## Hamming Codes
 
-[ADD STUFF HERE]
+Hamming Codes is a way to encode a bit string in such a way
+that a computer will be able to detect up to two bit-flips
+and correct up to a single bit flip.
+
+It leverages several parity bits (1) in specific positions to pinpoint wherei the bit-flip is located, 
+and therefore flip the bit again to correct it.
+{ .annotate } 
+
+1. If a string of bits have even `1`s, 
+   the parity is `0`, `1` otherwise.
+
+See the note below for more information.
+
+!!! note
+    Check out 3Blue1Brown's video on 
+    [Hamming Codes](https://www.youtube.com/watch?v=X8jsijhllIA)
+    to understand the motivation behind the methodology and
+    how it works. 
 
 ### Hamming Distance
-In a nutshell, the hamming distance can be programmatically written like so:
+The Hamming Distance Measures how different two messages of similar length are. It can be programmatically written like so:
 
-```ts title="typescript"
+```ts title="TypeScript"
 /**
  * Calculates the distance between Arrays s1 and s2.
  * @param s1 an array of T
@@ -33,6 +49,19 @@ function hammingDistance<T>(s1: Array<T>, s2: Array<T>): number {
 
 ## Math
 
+These are the mathematical rules/identities that we are
+going to use.
+
 ### Trigonometry
 
+$$
+    \sin(x) = \frac{\text{opposite}}{\text{adjacent}}
+$$
+
 ### Logarithms
+
+$$
+\begin{equation}
+    \log_b(b) = 1
+\end{equation}
+$$
