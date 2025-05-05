@@ -34,6 +34,10 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.details
   - pymdownx.snippets
   - pymdownx.inlinehilite
@@ -57,5 +61,13 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/jprili
       name: James' LinkedIn 
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
 copyright: Copyright &copy; <script>document.write(new Date().getFullYear())</script> James Paolo Rili
