@@ -10,7 +10,7 @@ See this 3Blue1Brown's video on [Hamming Codes](https://www.youtube.com/watch?v=
 ### Hamming Distance
 In a nutshell, the hamming distance can be programmatically written like so:
 
-```ts
+```ts title="typescript"
 /**
  * Calculates the distance between Arrays s1 and s2.
  * @param s1 an array of T
