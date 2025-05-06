@@ -54,6 +54,23 @@ going to use.
 
 ### Trigonometry
 
+Imagine a circle with a radius of $r = 1$,
+lying on a 2-dimensional plane with its centre on the origin.
+With any angle $t$, the coorindates of any point on the circle's edge can be expressed as
+
+$$
+\begin{align*}
+    c_x(t) &= \cos(t) \\
+    c_y(t) &= \sin(t)
+\end{align*}
+$$ 
+
+??? note "Show illustration"
+    <figure markdown="1" style="width:25%; height:25%;">
+    ![Unit Circle](res/unit-circle.svg)
+    </figure>
+
+.
 $$
     \sin(x) = \frac{\text{opposite}}{\text{adjacent}}
 $$
