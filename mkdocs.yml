@@ -32,6 +32,7 @@ theme:
 nav:
   - index.md
   - logistics.md
+  - module-01.md
   - appendix.md
 
 plugins:
