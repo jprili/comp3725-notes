@@ -29,6 +29,11 @@ theme:
         icon: material/toggle-switch-off-outline
         name: toggle to light mode
 
+nav:
+  - index.md
+  - logistics.md
+  - appendix.md
+
 plugins:
   - search
 
