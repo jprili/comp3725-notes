@@ -110,9 +110,9 @@ A network is evaluated through several criteria.
 Networks must meet a certain number of them.
 The most important ones are:
 
-* **Performance**: 
-* **Reliability**:
-* **Security**:
+* **Performance**: throughput (data flow per unit time) and latency (delay).
+* **Reliability**: how often the system fails, and how fast it recovers from one.
+* **Security**:    data protection and breach/loss recovery.
 
 ### Types
 
@@ -155,5 +155,47 @@ In this topology, $n$ nodes have $\frac{n(n-1)}{2}$ **full-duplex** links.
 </figure>
 
 #### Star 
+
+A star topology involves several devices directly connected to a central hub.
+As a consequence, data from one device must travel to the hub before going to the destination.
+
+
+<figure markdown>
+| advantages | disadvantages |
+| ---------- | ------------- |
+| low cost | single point of failure | 
+| robust | |
+| easy fault identification and isolation | | 
+</figure>
+
 #### Bus
+
+Popular in the early LAN days,
+a long cable connects all the devices in a **multipoint** manner.
+This cable acts as a backbone/main artery that links every device.
+Adding a new device is as simple as tapping into the cable.
+
+<figure markdown>
+| advantages | disadvantages |
+| ---------- | ------------- |
+| easy installation | single point of failure | 
+| low cost / less cabling | difficult fault isolation |
+</figure>
+
 #### Ring
+
+Each device in the network is **directly connected** to two immediate neighbours.
+A more concrete implementation is a device connected to an associated repeater
+to propagate signals to further devices.
+
+
+<figure markdown>
+| advantages | disadvantages |
+| ---------- | ------------- |
+| easy installation and reconfiguration | single point of failure | 
+| easy fault identification and isolation | |
+</figure>
+
+!!! warning "Bus vs. Ring"
+
+    A bus is multi-point while a ring is point-to-point.
