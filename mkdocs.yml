@@ -33,6 +33,7 @@ nav:
   - index.md
   - logistics.md
   - module-01.md
+  - module-02.md
   - appendix.md
 
 plugins:
