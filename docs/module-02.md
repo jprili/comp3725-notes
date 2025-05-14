@@ -91,16 +91,3 @@ TCP/IP Protocol Suite has five layers (1), each of which is responsible for:
     We can think of the "Physical" here as physical properties
     that is used to represent information rather than the actual
     medium the information travels through.
-
-!!! note "Chronologics of the two models"
-    
-    I think in class, Dr. Huang implied that OSI was based on TCP/IP,
-    along the lines of
-
-    > OSI's application, presentation and session layers were merged
-    > into the single TCP/IP application layer.
-
-    I don't know the basis of this, but Wikipedia says that 
-    [TCP/IP](https://en.wikipedia.org/wiki/Internet_protocol_suite) (1960s) came
-    before [OSI](https://en.wikipedia.org/wiki/OSI_model) (1970s).
-
